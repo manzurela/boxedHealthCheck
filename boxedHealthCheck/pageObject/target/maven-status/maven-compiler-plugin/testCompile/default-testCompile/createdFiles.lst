@@ -1,0 +1,5 @@
+utilities/AbstractPage.class
+utilities/AbstractTest.class
+pages/BrochureGatepage.class
+com/sanity/test/loginTest.class
+pages/SignInPage.class

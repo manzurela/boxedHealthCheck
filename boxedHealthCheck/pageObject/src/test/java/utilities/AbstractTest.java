@@ -10,7 +10,7 @@ import org.junit.BeforeClass;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
-import org.openqa.selenium.interactions.Actions;
+
 //import org.openqa.selenium.safari.SafariDriver;
 import org.openqa.selenium.support.PageFactory;
 
@@ -45,12 +45,12 @@ public class AbstractTest {
 		//}
 		
 		driver.get("https://vpc-staging-web-public.boxed.com/");
-		
+		//driver.get("https://vpc-dev-web-orange-public.boxed.com/");
 		//return driver;
 		driver.manage().timeouts().implicitlyWait(30,TimeUnit.SECONDS);
 		
 		driver.manage().window().maximize();
-		Actions act= new Actions(driver);
+	
 		PageFactory.initElements(driver,new BrochureGatepage());
 		
 		

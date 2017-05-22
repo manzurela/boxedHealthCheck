@@ -6,9 +6,9 @@ package pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
-import org.openqa.selenium.support.PageFactory;
 
-import com.sun.corba.se.spi.orbutil.fsm.Action;
+
+
 
 import utilities.AbstractPage;
 
@@ -33,6 +33,9 @@ public class HomePage extends AbstractPage{
 		
 		@FindBy(xpath="//*[@id='page-content']/div[3]/div/div/div[2]/div[1]/ul/li[2]/div/div/div/button")
 		private static WebElement MarsMandM;
+		//@FindBy(xpath="//*[@id='page-content']/div[3]/div/div/div[2]/div/ul/li[4]/div/div/div/button")
+		//private static WebElement HarsheyNugget;
+		
 		
 	//methods 
 		public static void LoggedIn() throws InterruptedException {
@@ -43,12 +46,13 @@ public class HomePage extends AbstractPage{
 			//AllProducts.click();
 			Actions act= new Actions(driver);
 			act.moveToElement(AllProducts).moveToElement(Grocery).moveToElement(ChocAndCandy).click().build().perform();
-			//act.moveToElement(AllProducts).moveToElement(Grocery).moveToElement(ChocAndCandy).click().build().perform();
 			Thread.sleep(2000);
 		}
 		
 		public static void PLEitemMars(){
 			MarsMandM.click();
 		}
+	
+		
 		
 }

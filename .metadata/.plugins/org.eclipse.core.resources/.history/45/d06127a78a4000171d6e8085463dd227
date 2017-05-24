@@ -33,7 +33,7 @@ public class loginTest extends AbstractTest {
 		BrochureGatepage.returnTohome2();
 		BrochureGatepage.ClickSignInLink();
 		SignInPage.setUserName("apitest@example.com");
-		SignInPage.setPassword("123456");
+		SignInPage.setPassword("shibli2016");
 		SignInPage.tapLoginButton();
 		//SignInPage.LoggedIn();
 		HomePage.LoggedIn();

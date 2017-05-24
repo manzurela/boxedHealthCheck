@@ -246,3 +246,7 @@
 2017-05-22 15:55:06,736 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manzurelahi/Documents/workspace/boxedHealthCheck/boxedHealthCheck/pageObject/src/main/resources
 2017-05-22 15:55:06,737 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
 2017-05-22 15:55:06,737 [Worker-61] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manzurelahi/Documents/workspace/boxedHealthCheck/boxedHealthCheck/pageObject/src/test/resources
+2017-05-24 10:11:56,892 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-24 10:11:56,893 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manzurelahi/Documents/workspace/boxedHealthCheck/boxedHealthCheck/pageObject/src/main/resources
+2017-05-24 10:11:56,894 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - Using 'UTF-8' encoding to copy filtered resources.
+2017-05-24 10:11:56,894 [Worker-221] INFO  o.e.m.c.i.embedder.EclipseLogger - skip non existing resourceDirectory /Users/manzurelahi/Documents/workspace/boxedHealthCheck/boxedHealthCheck/pageObject/src/test/resources
